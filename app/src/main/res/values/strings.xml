@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Boussole</string>
+    <string name="todo">TODO</string>
+    <string name="longitude">Longitude :</string>
+    <string name="latitude">Latitude :</string>
+    <string name="Longitude_Data">76° 36\' O</string>
+    <string name="Latitude_Data">39° 17′ N</string>
+    <string name="accel">Accéléromètre :</string>
+    <string name="accel_data">0.0</string>
+    <string name="magn">Champ magnétique :</string>
+    <string name="magn_data">0.0</string>
+</resources>

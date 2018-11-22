@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#000000">
+
+        <ImageView
+            android:id="@+id/IMG_COMPASS"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/compass" />
+
+        <TextView
+            android:id="@+id/TextView_Longitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/IMG_COMPASS"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/longitude"
+            android:textSize="17sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/TextView_Longitude_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/IMG_COMPASS"
+            android:layout_toEndOf="@id/TextView_Longitude"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/Longitude_Data"
+            android:textSize="17sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/TextView_Latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TextView_Longitude"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/latitude"
+            android:textSize="17sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/TextView_Latitude_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TextView_Longitude"
+            android:layout_toEndOf="@id/TextView_Latitude"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="37dp"
+            android:text="@string/Latitude_Data"
+            android:textSize="17sp"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/TextView_Accel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TextView_Latitude"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/accel"
+            android:textSize="17sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/TextView_Accel_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TextView_Latitude"
+            android:layout_toEndOf="@id/TextView_Accel"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="37dp"
+            android:text="@string/accel_data"
+            android:textSize="17sp"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/TextView_Magn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TextView_Accel"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/magn"
+            android:textSize="17sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/TextView_Magn_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TextView_Accel"
+            android:layout_toEndOf="@id/TextView_Magn"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="37dp"
+            android:text="@string/magn_data"
+            android:textSize="17sp"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
